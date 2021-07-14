@@ -1,0 +1,226 @@
+body {
+    font-family: 'Merriweather', serif;
+    background: #f0f0f0;
+    height: 100%;
+    position: relative;
+}
+
+/* Navigational Bar Blade */
+.account-header {
+    background-color: white;
+    justify-content: flex-end;
+    display:flex;
+    color: #1f60ad;
+    font-size: small;
+    font-size: small;
+}
+
+.btn-link {
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    color: #1f60ad;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color:#f06e2a;
+    font-weight: bold;
+}
+
+.header-image {
+    background-color: white;
+    display:flex;
+}
+
+.img-center {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myNavBar {
+    background: #1f60ad;
+}
+
+.nav-link {
+    color:white;
+    font-size:1em;
+    font-weight: normal;
+}
+
+/* Modify the color of link upon hover and selection*/
+.nav-link:hover, .nav-link:focus {
+    color:#f06e2a;
+}
+
+.dropdown-menu {
+    background-color:transparent;
+    min-width: 15em;
+    border:none;
+}
+
+.dropdown-item {
+    color:white;
+    font-weight:lighter;
+    padding:1em;
+    background-color: #1f60ad;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #1f60ad !important;
+    color:#f06e2a !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #1f60ad !important;
+    color:#f06e2a !important;
+}
+
+/* Enable hover to open dropdown menu */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* Home Blade */
+.container {
+    padding: 2em;
+}
+
+.post {
+    text-align: center;
+    background-color: white !important;
+}
+
+.post-link {
+    color: #1f60ad;
+    text-decoration: none;
+}
+
+.post-link:hover, .post-link:focus {
+    color: #cf4d35;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.col {
+    display:flex;
+    justify-content: center;
+}
+
+.title-container {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color: #1f60ad !important;
+}
+
+.img-container {
+    background-color: black;
+}
+
+.post-img:hover {
+    opacity: 0.5;
+}
+
+.text-post {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.btn-addpost {
+    background-color: #1f60ad;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.btn-addpost:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.search-box {
+    display: inline;
+    margin: 0;
+    width: 20%;
+}
+
+#postform {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.8s;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+}
+
+#postform.show {
+    max-height: 100%;
+    transition: max-height 0.8s;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+}
+
+.card-deck {
+    background-color: transparent;
+    border:none;
+}
+
+.card {
+    padding: 1em;
+    background: #ffffff;
+    margin-bottom: 3em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.post-img {
+    width:100%;
+}
+
+.text {
+    font-size: large;
+    margin: 0;
+}
+
+.logo {
+    width:15%;
+    height:15%;
+    overflow: hidden;
+}
+
+/* Login and Register Blade */
+.btn-primary {
+    background-color: #1f60ad;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    color:#f06e2a;
+    background-color: #1f60ad;
+}
+
+
+/* Footer Blade */
+.myFooter {
+    background: #444444;
+    position: relative;
+    min-width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footerText {
+    color:white;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+}
+
+/* JS Related */
+
+.active {
+    color:#f06e2a;
+    font-weight: bold;
+}
